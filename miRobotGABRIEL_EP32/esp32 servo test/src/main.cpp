@@ -2,26 +2,6 @@
 #include <ESP32Servo.h>
 #include "pinDefontions.h"
 
-// Servo s[4];
-// const int pins[4] = {servoPin1, servoPin2, servoPin3, servoPin4};
-
-// void setup() {
-//   Serial.begin(115200);
-//   for (int i = 0; i < 4; i++) s[i].attach(pins[i]);
-//   delay(1000);
-// }
-
-// void loop() {
-//   for (int i = 0; i < 4; i++) {
-//     Serial.printf("Moving GPIO %d only\n", pins[i]);
-//     s[i].write(30);  delay(1000);
-//     s[i].write(150); delay(1000);
-//     s[i].write(90);  delay(1500);
-//   }
-// }
-
-
-
 //  function declarations  //
 int averageRead(int pin){
   // takes 8 readings and averages them to allow for smooth readings
@@ -82,3 +62,22 @@ void loop() {
     outputTimer = millis();
   }
 }
+
+
+// Servo s[4];
+// const int pins[4] = {servoPin1, servoPin2, servoPin3, servoPin4};
+
+// void setup() {
+//   Serial.begin(115200);
+//   for (int i = 0; i < 4; i++) s[i].attach(pins[i]);
+//   delay(1000);
+// }
+
+// void loop() {
+//   for (int i = 0; i < 4; i++) {
+//     Serial.printf("Moving GPIO %d only\n", pins[i]);
+//     s[i].write(30);  delay(1000);
+//     s[i].write(150); delay(1000);
+//     s[i].write(90);  delay(1500);
+//   }
+// }

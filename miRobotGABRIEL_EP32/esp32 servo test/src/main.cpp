@@ -10,8 +10,8 @@ int averageRead(int pin){
     sum += analogRead(pin);
   }
   return sum/8;
-};
 
+};
 //  class declartions //
 Servo servoBase, servoOne, servoTwo,servoThree;
 

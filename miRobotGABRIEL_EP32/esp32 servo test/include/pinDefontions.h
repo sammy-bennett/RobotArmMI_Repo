@@ -1,7 +1,6 @@
 
-const int servoPin1(27),servoPin2(14),servoPin3(12),servoPin4(13);
-const int potPin1(4),potPin2(5),potPin3(6),potPin4(7); //all pots on ADC1 
-
+const int servoPin1(27),servoPin2(14),servoPin3(12),servoPin4(13); //all servos on ADC2
+const int potPin1(35),potPin2(34),potPin3(39),potPin4(36); //all pots on ADC1, 36and39 are sensVP and sensVN (input only)
 
 /*
 AI GENERATED SUMMERY of ADC2 conflict:
